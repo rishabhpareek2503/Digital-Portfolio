@@ -9,14 +9,14 @@ const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Hi! I'm <strong className="main-name"> Rishabh Pareek</strong>
         </h1>,
     titles: [
         "A Data Scientist",
         "A Machine Learning Specialist",
         "An Open Source Contributor",
         "A Backend Developer",
-        "A Colombian"
+        "A Rajasthani"
     ],
     about: {
         start: "Highly motivated final year BTech CSE student specializing in Data Science. Possess a strong foundation in machine learning principles and practical skills in Python, along with proficiency in libraries like TensorFlow/PyTorch and data analysis tools. Eager to leverage my analytical and problem-solving abilities to contribute as a Machine Learning Engineer and tackle real-world challenges. ," +

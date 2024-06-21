@@ -20,8 +20,8 @@
 
 .about {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 .about-card {
@@ -32,6 +32,28 @@
 .card-header .card-body {
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 
+}
+
+.resume-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.resume-button a {
+    background-color: #414b57;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button a:hover {
+    background-color: #0056b3;
 }

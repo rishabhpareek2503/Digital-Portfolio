@@ -12,7 +12,7 @@ const Home = () => {
         <section>
             <Container fluid className="home-content" id="home">
                 <Row>
-                    <Col className="home-header" style={{textAlign: "center"}}>
+                    <Col className="home-header" style={{textAlign: "left"}}>
                         <div>
                             {homeConfig.greeting}
                         </div>
@@ -29,6 +29,11 @@ const Home = () => {
                 <div className="col-md-8 mx-auto">
                     <Timeline items={homeConfig.workTimeline}/>
                 </div>
+                <div className="resume-button">
+                <a href={homeConfig.resumeButton.url} target="_blank" rel="noopener noreferrer">
+                    {homeConfig.resumeButton.text}
+                </a>
+            </div>
             </Container>
         </section>)
 
