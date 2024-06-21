@@ -1,0 +1,20 @@
+{
+  "main.css": "/Digital-Portfolio/static/css/main.4ee3f80c.chunk.css",
+  "main.js": "/Digital-Portfolio/static/js/main.b7e0e84a.chunk.js",
+  "main.js.map": "/Digital-Portfolio/static/js/main.b7e0e84a.chunk.js.map",
+  "runtime~main.js": "/Digital-Portfolio/static/js/runtime~main.e99fc450.js",
+  "runtime~main.js.map": "/Digital-Portfolio/static/js/runtime~main.e99fc450.js.map",
+  "static/css/2.29582032.chunk.css": "/Digital-Portfolio/static/css/2.29582032.chunk.css",
+  "static/js/2.902ad038.chunk.js": "/Digital-Portfolio/static/js/2.902ad038.chunk.js",
+  "static/js/2.902ad038.chunk.js.map": "/Digital-Portfolio/static/js/2.902ad038.chunk.js.map",
+  "index.html": "/Digital-Portfolio/index.html",
+  "precache-manifest.f945252acf9d486a0fac55ae6055811c.js": "/Digital-Portfolio/precache-manifest.f945252acf9d486a0fac55ae6055811c.js",
+  "service-worker.js": "/Digital-Portfolio/service-worker.js",
+  "static/css/2.29582032.chunk.css.map": "/Digital-Portfolio/static/css/2.29582032.chunk.css.map",
+  "static/css/main.4ee3f80c.chunk.css.map": "/Digital-Portfolio/static/css/main.4ee3f80c.chunk.css.map",
+  "static/media/fastapi_sklearn.png": "/Digital-Portfolio/static/media/fastapi_sklearn.f7d742fc.png",
+  "static/media/graph_embeddings.png": "/Digital-Portfolio/static/media/graph_embeddings.fed0850a.png",
+  "static/media/kafkaml.png": "/Digital-Portfolio/static/media/kafkaml.9c0f9867.png",
+  "static/media/portfolio.png": "/Digital-Portfolio/static/media/portfolio.4b632d51.png",
+  "static/media/sklearn_genetic_opt.png": "/Digital-Portfolio/static/media/sklearn_genetic_opt.23273bc8.png"
+}
