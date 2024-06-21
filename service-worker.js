@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https//rishabhpareek2503.github.io/Digital-Portfolio/precache-manifest.ac45668b253d875f4a16742a9b25b54c.js"
+  "/Digital-Portfolio/precache-manifest.1da8a25244e8444625d1a80296bee2bc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https//rishabhpareek2503.github.io/Digital-Portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/Digital-Portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
