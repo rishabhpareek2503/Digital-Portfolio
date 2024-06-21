@@ -5,7 +5,7 @@ import {ImBook} from "react-icons/im";
 import ISS from "../images/ISS.png"
 import ParkSense from "../images/Parksense.PNG"
 import CASSIR from "../images/CASSIR.PNG"
-import portfolio from "../images/portfolio.png"
+import portfolio from "../images/RishabhPortfolio.PNG"
 
 import React from 'react'
 
@@ -99,17 +99,17 @@ const projectConfig = [
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/portfolio",
+                url: "https://rishabhpareek2503.github.io/Digital-Portfolio/",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/portfolio/fork",
+                url: "https://rishabhpareek2503.github.io/Digital-Portfolio/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/portfolio/subscription",
+                url: "https://rishabhpareek2503.github.io/Digital-Portfolio/subscription",
                 icon: <AiFillEye/>
             }
         ],
