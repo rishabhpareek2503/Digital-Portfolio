@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3bcbdde249b5d216f5c0",
+    "revision": "aee9176b17d4452ddcba",
     "url": "/Digital-Portfolio/static/css/main.29dd5a7b.chunk.css"
   },
   {
-    "revision": "3bcbdde249b5d216f5c0",
-    "url": "/Digital-Portfolio/static/js/main.91f1e4f5.chunk.js"
+    "revision": "aee9176b17d4452ddcba",
+    "url": "/Digital-Portfolio/static/js/main.13d10266.chunk.js"
   },
   {
     "revision": "7f167e094db4da6c1bea",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/Digital-Portfolio/static/media/CASSIR.2c6dfea1.PNG"
   },
   {
-    "revision": "4b632d51a45152af9b70077a3d4955ca",
-    "url": "/Digital-Portfolio/static/media/portfolio.4b632d51.png"
+    "revision": "aa5bfc107883a1da4a90795d0d48ed13",
+    "url": "/Digital-Portfolio/static/media/RishabhPortfolio.aa5bfc10.PNG"
   },
   {
     "revision": "f7d742fc14d3d495da2581043372d15a",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Digital-Portfolio/static/media/sklearn_genetic_opt.23273bc8.png"
   },
   {
-    "revision": "7baa73e38880aba517cb4761fdbf8646",
+    "revision": "9ff3eb137dffcdfbf2cf1c29a3afc837",
     "url": "/Digital-Portfolio/index.html"
   }
 ];
