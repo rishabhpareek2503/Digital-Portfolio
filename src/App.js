@@ -11,7 +11,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
-
+if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
+    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID)
+}
 
 function App() {
     return (
@@ -21,10 +23,10 @@ function App() {
                 <br />
                 <ScrollToTop />
                 <Routes>
-                    <Route path={"/portfolio"} element={<Home />} />
-                    <Route path={"/projects"} element={<Projects />} />
-                    <Route path={"/blogs"} element={<Blogs />} />
-                    <Route path={"/skills"} element={<Skills />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/blogs" element={<Blogs />} />
+                    <Route path="/skills" element={<Skills />} />
                 </Routes>
                 <Footer />
             </div>
