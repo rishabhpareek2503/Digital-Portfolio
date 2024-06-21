@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "https//rishabhpareek2503.github.io/Digital-Portfolio/static/media/fastapi_sklearn.f7d742fc.png"
   },
   {
-    "revision": "cadf48ab48c51f3475101fc8cb348931",
+    "revision": "1900b5740cb2b3a9983d89db888c7a15",
     "url": "https//rishabhpareek2503.github.io/Digital-Portfolio/index.html"
   }
 ];
