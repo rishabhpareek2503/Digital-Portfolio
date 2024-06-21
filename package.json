@@ -3,7 +3,7 @@
   "version": "0.1.0",
   
   "private": true,
-  "homepage": "https://rishabhpareek2503.github.io/Digital-Portfolio/",
+  "homepage": "https://rishabhpareek2503.github.io/Digital-Portfolio",
   "dependencies": {
     "@iconify/iconify": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.1",
