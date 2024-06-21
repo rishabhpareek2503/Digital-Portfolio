@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "de6bde073295c46d82ed",
+    "revision": "0f8993aae3b8f22bbc53",
     "url": "/Digital-Portfolio/static/css/main.f1554205.chunk.css"
   },
   {
-    "revision": "de6bde073295c46d82ed",
-    "url": "/Digital-Portfolio/static/js/main.519a35ce.chunk.js"
+    "revision": "0f8993aae3b8f22bbc53",
+    "url": "/Digital-Portfolio/static/js/main.c967476e.chunk.js"
   },
   {
     "revision": "7f167e094db4da6c1bea",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Digital-Portfolio/static/media/fastapi_sklearn.f7d742fc.png"
   },
   {
-    "revision": "0c02b3c5b893f903e1aee2e6d5b37628",
+    "revision": "52463fcf8eb926656e5af773da25e3cb",
     "url": "/Digital-Portfolio/index.html"
   }
 ];
