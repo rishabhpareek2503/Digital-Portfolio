@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ReactGA from 'react-ga';
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
@@ -11,10 +11,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
-// Initialize Google Analytics if tracking ID is defined
-if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
-    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
-}
+
 
 function App() {
     return (
@@ -23,12 +20,12 @@ function App() {
                 <NavBar />
                 <br />
                 <ScrollToTop />
-                <Switch>
-                    <Route path={"/portfolio"} component={Home} />
-                    <Route path={"/projects"} component={Projects} />
-                    <Route path={"/blogs"} component={Blogs} />
-                    <Route path={"/skills"} component={Skills} />
-                </Switch>
+                <Routes>
+                    <Route path={"/portfolio"} element={<Home />} />
+                    <Route path={"/projects"} element={<Projects />} />
+                    <Route path={"/blogs"} element={<Blogs />} />
+                    <Route path={"/skills"} element={<Skills />} />
+                </Routes>
                 <Footer />
             </div>
         </Router>
