@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Digital-Portfolio/static/media/fastapi_sklearn.f7d742fc.png"
   },
   {
-    "revision": "a8e3eb5f31efad8de63281d4f31a57fe",
+    "revision": "2bd5d91bb3836ea62a66dbc5fce10b64",
     "url": "/Digital-Portfolio/index.html"
   }
 ];
