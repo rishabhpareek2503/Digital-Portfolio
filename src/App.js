@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 import ReactGA from 'react-ga';
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
@@ -23,12 +23,12 @@ function App() {
                 <NavBar />
                 <br />
                 <ScrollToTop />
-                <Routes>
-                    <Route path={"/portfolio"} element={<Home />} />
-                    <Route path={"/projects"} element={<Projects />} />
-                    <Route path={"/blogs"} element={<Blogs />} />
-                    <Route path={"/skills"} element={<Skills />} />
-                </Routes>
+                <Switch>
+                    <Route path={"/portfolio"} component={Home} />
+                    <Route path={"/projects"} component={Projects} />
+                    <Route path={"/blogs"} component={Blogs} />
+                    <Route path={"/skills"} component={Skills} />
+                </Switch>
                 <Footer />
             </div>
         </Router>
