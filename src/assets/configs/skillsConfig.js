@@ -1,22 +1,22 @@
 import {
     SiPython,
-    SiPostgresql,
-    SiMicrosoftsqlserver,
+    SiCplusplus,
+    SiPytorch,
     SiDocker,
-    SiMicrosoftazure,
-    SiRedis,
-    SiReact,
+    SiTensorflow,
+    SiGit,
+    SiMysql,
+    SiDatabricks,
+    SiWordpress,
     SiJavascript,
     SiCss3,
     SiHtml5,
-    SiWindowsterminal,
-    SiSnowflake,
-    SiApacheairflow,
-    SiApachekafka,
-    SiPowerbi
+    SiReact,
+    SiNodedotjs,
+    SiPowerbi,
 } from "react-icons/si";
-import {GrMysql} from "react-icons/gr";
-import {FaGitAlt} from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 
 import React from "react";
 
@@ -31,14 +31,14 @@ const skillsConfig = {
         {
             id: "skills-1",
             className: "skill-icon",
-            icon: <SiPostgresql size={50}/>,
-            text: "Postgres"
+            icon: <SiCplusplus size={50}/>,
+            text: "C++"
         },
         {
             id: "skills-2",
             className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
+            icon: <SiPytorch size={50}/>,
+            text: "Pytorch"
         },
         {
             id: "skills-3",
@@ -49,8 +49,8 @@ const skillsConfig = {
         {
             id: "skills-4",
             className: "skill-icon",
-            icon: <SiMicrosoftazure size={50}/>,
-            text: "Azure"
+            icon: <SiTensorflow size={50}/>,
+            text: "TensorFlow"
         },
         {
             id: "skills-5",
@@ -69,32 +69,32 @@ const skillsConfig = {
         {
             id: "skills-6",
             className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
+            icon: <SiDatabricks size={50}/>,
+            text: "Big Data"
         },
         {
             id: "skills-7",
             className: "skill-icon",
-            icon: <SiWindowsterminal size={50}/>,
-            text: "Bash"
+            icon: <SiDatabricks size={50}/>,
+            text: "Data Visualization"
         },
         {
             id: "skills-8",
             className: "skill-icon",
-            icon: <SiSnowflake size={50}/>,
-            text: "Snowflake"
+            icon: <SiWordpress size={50}/>,
+            text: "Wordpress"
         },
         {
             id: "skills-9",
             className: "skill-icon",
-            icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
+            icon: <SiDatabricks size={50}/>,
+            text: "Data Analytics"
         },
         {
             id: "skills-10",
             className: "skill-icon",
             icon: <SiJavascript size={50}/>,
-            text: "JS"
+            text: "JavaScript"
         },
         {
             id: "skills-11",
@@ -113,15 +113,13 @@ const skillsConfig = {
             className: "skill-icon",
             icon: <SiReact size={50}/>,
             text: "React"
-        }
-        ,
+        },
         {
             id: "skills-14",
             className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
-        }
-        ,
+            icon: <SiNodedotjs size={50}/>,
+            text: "Node.js"
+        },
         {
             id: "skills-15",
             className: "skill-icon",
@@ -129,6 +127,6 @@ const skillsConfig = {
             text: "Power BI"
         }
     ]
-}
+};
 
-export default skillsConfig
+export default skillsConfig;

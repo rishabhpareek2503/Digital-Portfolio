@@ -2,9 +2,9 @@ import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
 
-import sklearnGenetic from "../images/sklearn_genetic_opt.png"
-import graphEmbeddings from "../images/graph_embeddings.png"
-import kafkaMl from "../images/kafkaml.png"
+import ISS from "../images/ISS.png"
+import ParkSense from "../images/Parksense.PNG"
+import CASSIR from "../images/CASSIR.PNG"
 import portfolio from "../images/portfolio.png"
 
 import React from 'react'
@@ -12,115 +12,87 @@ import React from 'react'
 const projectConfig = [
     {
         id: "project-5",
-        title: "Sklearn Genetic Opt",
+        title: "Inventory Synchonization",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
+                url: "https://github.com/rishabhpareek2503/ParkSense",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork",
+                url: "https://github.com/rishabhpareek2503/Inventory_Synchronzation/fork",
                 icon: <BiGitRepoForked/>,
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription",
+                url: "https://github.com/rishabhpareek2503/Inventory_Synchronzation/subscription",
                 icon: <AiFillEye/>,
             },
             {
                 name: "docs",
-                url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/",
+                url: "",
                 icon: <ImBook/>,
             }
         ],
-        image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
+        image: ISS,
+        description: "The Inventory Synchronization System is a robust solution designed to streamline and optimize inventory management for e-commerce businesses. This system synchronizes the inventory of the main e-commerce website with other major platforms like Amazon, ensuring real-time updates and consistency across all sales channels.",
         target: "_blank"
     },
     {
         id: "project-4",
-        title: "Graphs Embeddings",
+        title: "ParkSense",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings",
+                url: "https://github.com/rishabhpareek2503/ParkSense",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/fork",
+                url: "https://github.com/rishabhpareek2503/ParkSense/fork",
                 icon: <BiGitRepoForked/>,
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/subscription",
+                url: "https://github.com/rishabhpareek2503/ParkSense/subscription",
                 icon: <AiFillEye/>,
             },
             {
                 name: "docs",
-                url: "https://graph-embeddings.readthedocs.io/",
+                url: "",
                 icon: <ImBook/>,
             }
         ],
-        image: graphEmbeddings,
-        description: "Graph embeddings for downstream tasks.",
+        image: ParkSense,
+        description: "ParkSense aims to address the following challenges in the parking industry: ● Limited Parking Space Utilization: ○ Many parking spaces in communities remain underutilized, while users struggle to find available and affordable parking spots, leading to congestion and frustration.",
         target: "_blank"
     },
     {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "Context Assesment Of Indian Roads",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
+                url: "https://github.com/rishabhpareek2503/Context_Assesment_Of_Indian_Road",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork",
+                url: "https://github.com/rishabhpareek2503/Context_Assesment_Of_Indian_Road/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription",
+                url: "https://github.com/rishabhpareek2503/Context_Assesment_Of_Indian_Road/Subscription",
                 icon: <AiFillEye/>
             }
         ],
-        image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        image: CASSIR,
+        description: "Road context assessment: Using information from image, video and auxiliary sources, evaluate the various events (one or more) that are currently taking place on the road and/or in the surrounding area, given an Indian road scenario.",
         target: "_blank"
     },
-    {
-        id: "project-2",
-        title: "Pyworkforce",
-        links: [
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/pyworkforce",
-                icon: <AiFillGithub/>
-            },
-            {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/fork",
-                icon: <BiGitRepoForked/>
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/subscription",
-                icon: <AiFillEye/>
-            },
-            {
-                name: "docs",
-                url: "https://pyworkforce.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
-        target: "_blank"
-    },
+   
     {
         id: "project-1",
         title: "Portfolio Web",

@@ -19,8 +19,7 @@ const homeConfig = {
         "A Colombian"
     ],
     about: {
-        start: "I've been working for over seven years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
+        start: "Highly motivated final year BTech CSE student specializing in Data Science. Possess a strong foundation in machine learning principles and practical skills in Python, along with proficiency in libraries like TensorFlow/PyTorch and data analysis tools. Eager to leverage my analytical and problem-solving abilities to contribute as a Machine Learning Engineer and tackle real-world challenges. ," +
             " and spreading the word of data!",
         exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
             "with a deep interest in machine learning."
@@ -28,53 +27,36 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
+            title: "Head Market Research",
+            company: "Global Hosiery",
+            description: "Led market research, identified challenges, automated order processing, enhanced inventory management..",
+            date: "Nov-2023-Present",
             icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
+            tags: ["ml", "python", "aws"]
         },
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
+            title: "Junior Content Writer",
+            company: "Learnbay",
+            description: "Enhanced SEO with engaging content, targeted keywords, and increased organic traffic for Learnbay's growth. ",
+            date: "Apr-2023-Oct-2023",
             icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            tags: ["Content Writing", "SEO", "RankMath",]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
+            title: "Web Developer",
+            company: "Global Hosiery",
+            description: "Developed user-centric e-commerce site, optimized UX, boosted sales with secure payments and analytics-driven enhancements.",
+            date: "Jan-2023-Mar-2023",
             icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            tags: ["WebDev", "eCommerce", "UI/UX","Rest-API"]
         },
-        {
-            id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
-        },
-        {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
-        }
-    ]
+    ],
+    resumeButton: {
+        url: "https://drive.google.com/file/d/1-B9-rL_Du8rRl451LByUc-Vue2EXJrLa/view?usp=sharing",
+        text: "View Resume"
+    }
 }
 
 
