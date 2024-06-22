@@ -11,8 +11,8 @@
     font-size: 2.8em;
     color: #ddd79c;
     font-weight: 600;
-
 }
+
 .Typewriter__cursor {
     font-size: 2.4em;
     color: #f5f5f5;
@@ -20,8 +20,8 @@
 
 .about {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-card {
@@ -33,7 +33,6 @@
     margin: auto;
     display: flex;
     justify-content: right;
-
 }
 
 .resume-button {
@@ -55,5 +54,36 @@
 }
 
 .resume-button a:hover {
-    background-color: #0056b3;
+    background-color: #b4b4b4;
+}
+/* Styling for the toggle buttons */
+.toggle-buttons .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styling for active button */
+.toggle-buttons .btn-primary,
+.toggle-buttons .btn.active {
+    background-color: #414b57;
+    border-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling for inactive button */
+.toggle-buttons .btn-outline-primary {
+    background-color: #414b57;
+    border-color: #000000;
+    color: #ffffff;
+}
+
+/* Hover effect for buttons */
+.toggle-buttons .btn:hover:not(.active) {
+    background-color: #8e969e;
+    border-color: #929496;
+    color: white;
 }
