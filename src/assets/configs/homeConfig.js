@@ -4,6 +4,7 @@ import { DiCodeigniter } from "react-icons/di"; // Import DiCodeigniter icon
 import { GiCommercialAirplane } from "react-icons/gi";
 import { FaMobileAlt } from "react-icons/fa";
 import { BiRocket } from "react-icons/bi"; // Import BiRocket icon
+import ContactCard from '../../components/contactcard';
 
 const homeConfig = {
     greeting:
@@ -99,7 +100,14 @@ const homeConfig = {
     resumeButton: {
         url: "https://drive.google.com/file/d/1-B9-rL_Du8rRl451LByUc-Vue2EXJrLa/view?usp=sharing",
         text: "View Resume"
-    }
+    },
+    contactInfo: (
+    <div className="contact-info">
+      <h3>Get in touch!</h3>
+      <ContactCard />
+    </div>
+  ),
+
 }
 
 export default homeConfig;
