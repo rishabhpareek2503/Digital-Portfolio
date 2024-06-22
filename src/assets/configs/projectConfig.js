@@ -99,17 +99,17 @@ const projectConfig = [
         links: [
             {
                 name: "repo",
-                url: "https://rishabhpareek2503.github.io/Digital-Portfolio/",
+                url: "https://github.com/rishabhpareek2503/Digital-Portfolio",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://rishabhpareek2503.github.io/Digital-Portfolio/fork",
+                url: "https://github.com/rishabhpareek2503/Digital-Portfolio/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://rishabhpareek2503.github.io/Digital-Portfolio/subscription",
+                url: "https://github.com/rishabhpareek2503/Digital-Portfolio/subscription",
                 icon: <AiFillEye/>
             }
         ],
