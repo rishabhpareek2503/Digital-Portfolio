@@ -1,3 +1,36 @@
+.greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* For mobile layout */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #cbba3b; /* Gold border for a professional look */
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Smooth transition on hover */
+}
+
+.profile-image:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+@media (min-width: 768px) {
+    .greeting-container {
+        flex-direction: row; /* For larger screens */
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 .home-header h1 {
     color: #f5f5f5;
     font-size: 3em;

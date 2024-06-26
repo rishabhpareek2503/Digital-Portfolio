@@ -1,16 +1,20 @@
 import React from 'react';
 import { BsClipboardData } from "react-icons/bs";
-import { DiCodeigniter } from "react-icons/di"; // Import DiCodeigniter icon
-import { GiCommercialAirplane } from "react-icons/gi";
+import { DiCodeigniter } from "react-icons/di";
 import { FaMobileAlt } from "react-icons/fa";
-import { BiRocket } from "react-icons/bi"; // Import BiRocket icon
+import { BiRocket } from "react-icons/bi";
 import ContactCard from '../../components/contactcard';
+import myImage from '../../assets/images/myImage.jpeg'; 
 
 const homeConfig = {
-    greeting:
-        <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rishabh Pareek</strong>
-        </h1>,
+    greeting: (
+        <div className="greeting-container">
+            <img src={myImage} alt="Rishabh Pareek" className="profile-image" />
+            <h1 className="heading">
+                Hi! I'm <strong className="main-name"> Rishabh Pareek</strong>
+            </h1>
+        </div>
+    ),
     titles: [
         "A Data Scientist",
         "A Machine Learning Specialist",
@@ -31,7 +35,7 @@ const homeConfig = {
             company: "Global Hosiery",
             description: "Led market research, identified challenges, automated order processing, enhanced inventory management.",
             date: "Nov-2023-Present",
-            icon: <BiRocket />, // Use BiRocket icon component
+            icon: <BiRocket />, 
             tags: ["ml", "python", "aws"]
         },
         {
@@ -40,7 +44,7 @@ const homeConfig = {
             company: "Learnbay",
             description: "Enhanced SEO with engaging content, targeted keywords, and increased organic traffic for Learnbay's growth.",
             date: "Apr-2023-Oct-2023",
-            icon: <DiCodeigniter />, // Use DiCodeigniter icon component
+            icon: <DiCodeigniter />, 
             tags: ["Content Writing", "SEO", "RankMath"]
         },
         {
@@ -62,7 +66,7 @@ const homeConfig = {
             date: "2021-present",
             icon: <BsClipboardData />,
             tags: ["CSE", "Data Science", "Big Data", "ML"],
-            cgpa: "6.75", // CGPA for BTech CSE
+            cgpa: "6.75",
             awards: [
                 "Earned certification in NGO website development, PrabhuG Mission Foundation(2023)",
                 "Certified for NGO volunteering, PrabhuG Mission Foundation(2024)"
@@ -76,7 +80,7 @@ const homeConfig = {
             date: "2021",
             icon: <BsClipboardData />,
             tags: ["Science Stream"],
-            percentage: "82%", // Percentage for 12th Grade
+            percentage: "82%",
             awards: [
                 "Best Actor Award, Birla School Pilani (2021)",
                 
@@ -90,7 +94,7 @@ const homeConfig = {
             date: "2019",
             icon: <BsClipboardData />,
             tags: ["General Education"],
-            percentage: "81%", // Percentage for 10th Grade
+            percentage: "81%",
             awards: [
                 "School Band Captain",
                 "Best Trumpeter of School Band"
@@ -107,7 +111,6 @@ const homeConfig = {
       <ContactCard />
     </div>
   ),
-
 }
 
 export default homeConfig;

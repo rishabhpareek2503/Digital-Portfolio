@@ -5,7 +5,7 @@ import About from "../../components/About";
 import Timeline from "../../components/Timeline/Timeline";
 import homeConfig from "../../assets/configs/homeConfig";
 import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
-import ContactCard from "../../components/contactcard"; // Corrected import statement
+import ContactCard from "../../components/contactcard"; 
 
 import "./Home.css";
 
@@ -25,10 +25,8 @@ const Home = () => {
             </div>
             <div className="about">
               <About about={homeConfig.about} />
-              {/* Connecting line above */}
               <div className="connecting-line line-above"></div>
             </div>
-            {/* Buttons for toggling between Qualifications and Internships */}
             <Row className="toggle-buttons text-center my-4">
               <Col>
                 <Button
@@ -48,7 +46,6 @@ const Home = () => {
                   Internships
                 </Button>
               </Col>
-              {/* Connecting line below */}
               <div className="connecting-line line-below"></div>
             </Row>
           </Col>
@@ -68,7 +65,6 @@ const Home = () => {
           </a>
         </div>
       </Container>
-      {/* Contact section */}
       <Container fluid className="contact-section">
         <Row className="justify-content-center">
           <Col xs={12} md={6} className="contact-col">
