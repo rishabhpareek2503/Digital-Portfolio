@@ -102,7 +102,7 @@ const homeConfig = {
         }
     ],
     resumeButton: {
-        url: "https://drive.google.com/file/d/1-B9-rL_Du8rRl451LByUc-Vue2EXJrLa/view?usp=sharing",
+        url: "https://docs.google.com/document/d/1mrsNhyEerGyinq_1R7U-CHOGJI2jxt4g2WqzJYYIDl8/edit?usp=sharing",
         text: "View Resume"
     },
     contactInfo: (
