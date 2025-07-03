@@ -16,19 +16,36 @@ const homeConfig = {
         </div>
     ),
     titles: [
-        "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Rajasthani"
+        "Full-Stack Developer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Cloud & DevOps Enthusiast",
+        "AI Solutions Builder",
+        "Open Source Contributor",
+        "Tech Explorer"
     ],
     about: {
-        start: "Highly motivated final year BTech CSE student specializing in Data Science. Possess a strong foundation in machine learning principles and practical skills in Python, along with proficiency in libraries like TensorFlow/PyTorch and data analysis tools. Eager to leverage my analytical and problem-solving abilities to contribute as a Machine Learning Engineer and tackle real-world challenges. ," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+        start: "Energetic Computer Science student at NIIT University, I build dynamic web applications, boosting user engagement by 20% at ScoutBetter using Next.js, React, TypeScript, and Tailwind CSS. My expertise in FastAPI, Postgres, and AWS drives scalable, high-performance solutions like job-tracking platforms and parking systems, thriving in collaborative teams with a passion for clean, innovative code.",
+        // exit: "I'm fluent in Python, JavaScript, SQL databases, BI tools, and more, with a deep interest in full-stack development, cloud infrastructure, and modern web technologies."
     },
     workTimeline: [
+        {
+            id: "work-5",
+            title: "Full-Stack Developer Intern",
+            company: "ScoutBetter (Hybrid)",
+            description: (
+                <>
+                    <ul style={{marginBottom: 0}}>
+                        <li>Developing an <strong>AI-driven platform</strong> to generate ATS-friendly resumes and track job applications through a job board.</li>
+                        <li>Built a <strong>responsive frontend</strong> using <strong>Next.js</strong> and <strong>Tailwind CSS</strong>, integrated with a robust backend powered by <strong>Django</strong>.</li>
+                        <li>Deployed cloud infrastructure on <strong>Azure</strong> and utilized <strong>MongoDB</strong> for efficient data storage and management.</li>
+                    </ul>
+                </>
+            ),
+            date: "Jan 2025 - Present",
+            icon: <DiCodeigniter />,
+            tags: ["Full-Stack", "Next.js", "Tailwind CSS", "Django", "Azure", "MongoDB", "AI"]
+        },
         {
             id: "work-4",
             title: "Head Market Research",
